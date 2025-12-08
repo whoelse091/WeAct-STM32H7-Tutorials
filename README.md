@@ -6,6 +6,11 @@ It is intended for beginners and hobbyists who want an easy and straightforward 
 
 
 ## Getting Started
+
+<img width="810" height="868" alt="image" src="https://github.com/user-attachments/assets/be01aa82-e141-4e07-b44a-296f34b1d60f" />
+
+
+
 ## Badges
 
 ![MCU](https://img.shields.io/badge/MCU-STM32H7-informational)
@@ -28,10 +33,5 @@ Answer 1
 Answer 2
 
 
-## Support
 
-For support, email fake@fake.com or join our Slack channel.
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
