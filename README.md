@@ -1,4 +1,5 @@
 
+
 # WeAct-STM32H7-Tutorials
 
 This project provides clear and practical examples of how to work with the WeAct STM32H7 development board. It explains how to configure the MCU, display, camera, and other modules step by step.
@@ -14,9 +15,65 @@ To begin, you need to install the official STM32 development environment —
 This tool will allow you to configure the MCU, generate initialization code,
 compile the project, and flash the firmware to your board.
 
+<img width="2500" height="1400" alt="image" src="https://github.com/user-attachments/assets/c7f6ddf7-1dba-419f-910f-e4f9d60f75f3" />
+
+
+### Creating a New Project
+
+After installing STM32CubeIDE, the next step is to create a new project.
+Open the IDE and navigate to:
+
+**File → New → STM32 Project**
+
+This will open the board and MCU selection window, where you can choose
+the WeAct STM32H7 device and start configuring your project.
+
+<img width="1213" height="849" alt="image" src="https://github.com/user-attachments/assets/65559cc1-03f7-41f8-9d58-31e83c908b6a" />
 
 
 
+### Selecting the Microcontroller
+
+After creating a new project, STM32CubeIDE will ask you to select the MCU.
+In the field **“Commercial Part Number”** enter the exact name of your
+microcontroller as written on the chip.
+
+<img width="2500" height="1400" alt="image" src="https://github.com/user-attachments/assets/5e7ef81c-5c1f-48b5-aca1-799cd711d6c3" />
+
+For this board, the correct part number is:
+
+**STM32H7B0VBT6**
+
+After typing the part number, select it from the list and click **Next** to continue.
+
+
+### Project Name and Language Selection
+
+The next window allows you to configure your project settings.
+Here you should choose a **project name** and select the **programming language**.
+
+For this repository, we use the **C language**, so make sure to set the
+language option to **C** before continuing.
+
+<img width="714" height="764" alt="image" src="https://github.com/user-attachments/assets/491f43e5-8c5b-4f79-bc6f-29853fc32e3a" />
+
+Once everything is set, click **Finish** to generate the project.
+
+
+### Pin Configuration and Interfaces
+
+Now we move on to the most interesting part.
+After the project is created, STM32CubeIDE will open the pinout configuration window.
+
+Here you can see all available pins of the microcontroller.  
+This is where we will configure every interface required for the project —  
+SPI for the display, UART for debugging, GPIO control pins, and other peripherals.
+
+<img width="2500" height="1400" alt="image" src="https://github.com/user-attachments/assets/95f2a1ec-a7e6-4f69-bd72-4fe2c89c304a" />
+
+
+In this view you can enable modules, assign pins, and set the functions needed
+for proper operation of the display and other connected hardware.
 
 ## Badges
 
@@ -38,6 +95,14 @@ Answer 1
 #### Question 2
 
 Answer 2
+
+
+
+
+
+
+
+
 
 
 
