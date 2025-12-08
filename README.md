@@ -7,7 +7,14 @@ It is intended for beginners and hobbyists who want an easy and straightforward 
 
 ## Getting Started
 
-<img width="810" height="868" alt="image" src="https://github.com/user-attachments/assets/be01aa82-e141-4e07-b44a-296f34b1d60f" />
+After you receive your WeAct STM32H7 board, the first thing you will probably want
+to do is get the display working.  
+To begin, you need to install the official STM32 development environment —
+**STM32CubeIDE**, available from the STMicroelectronics website.  
+This tool will allow you to configure the MCU, generate initialization code,
+compile the project, and flash the firmware to your board.
+
+
 
 
 
