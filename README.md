@@ -75,6 +75,64 @@ SPI for the display, UART for debugging, GPIO control pins, and other peripheral
 In this view you can enable modules, assign pins, and set the functions needed
 for proper operation of the display and other connected hardware.
 
+
+###  Display 
+
+Before initializing the display, we must configure the pins it uses.
+In the pinout view of STM32CubeIDE, locate the pins connected to the LCD module.
+In our WeAct STM32H7 board design, the display is wired to the **SPI4** interface.
+
+The correct pin mapping is:
+
+- **PE12 → SPI4_SCK**  
+- **PE14 → SPI4_MOSI**  
+- **PE5  → SPI4_MISO** (not used in this project, but still part of SPI4)
+
+Click on each of these pins in the pinout diagram and assign the corresponding
+SPI4 functions exactly as listed above.
+
+<img width="1215" height="731" alt="image" src="https://github.com/user-attachments/assets/ab8133cc-9e6b-49c0-8f36-9fa05b53c124" />
+
+### Enabling the SPI4 Peripheral
+
+After assigning the pins manually, we need to activate the SPI4 bus itself.
+On the left sidebar, open the category **Connectivity**, then locate and select **SPI4**.
+
+This enables the peripheral and allows you to configure parameters such as mode,
+clock polarity, speed, DMA, and more.
+<img width="2559" height="1528" alt="Без имени-1" src="https://github.com/user-attachments/assets/d2e6cee6-f65e-4888-98f1-4bc6bda33110" />
+
+
+After enabling the SPI4 peripheral, a configuration panel will appear.
+Here you must set the operating mode for the SPI bus.
+
+In the **Mode** field, select:
+
+**Full Duplex Master**
+
+This mode allows the microcontroller to control the SPI bus while sending data
+to the display.
+
+
+<img width="1147" height="409" alt="image" src="https://github.com/user-attachments/assets/b764d200-cb4a-457a-8e0a-4fdfa5140c4f" />
+
+
+
+Once the correct mode is selected, the SPI pins you assigned earlier
+(SCK, MOSI, MISO) should highlight in green in the pinout view.
+This indicates that the configuration is valid and the pins are now properly linked
+to the SPI4 peripheral.
+
+After selecting the operating mode, an additional SPI settings panel will appear
+at the bottom of the window.  
+This panel allows you to configure all necessary parameters for the SPI bus.
+
+<img width="740" height="1217" alt="image" src="https://github.com/user-attachments/assets/c9741e6b-2508-483a-be5a-8650146b42bc" />
+
+Set the values according to the reference image shown adove.  
+Make sure your configuration matches the displayed settings before continuing.
+
+
 ## Badges
 
 ![MCU](https://img.shields.io/badge/MCU-STM32H7-informational)
@@ -95,6 +153,10 @@ Answer 1
 #### Question 2
 
 Answer 2
+
+
+
+
 
 
 
