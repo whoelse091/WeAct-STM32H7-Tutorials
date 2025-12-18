@@ -132,6 +132,32 @@ This panel allows you to configure all necessary parameters for the SPI bus.
 Set the values according to the reference image shown adove.  
 Make sure your configuration matches the displayed settings before continuing.
 
+### Display Control GPIO Pins (Required)
+
+In addition to SPI configuration, several GPIO pins must be configured *manually* in STM32CubeIDE.
+These pins are not part of the SPI peripheral and are mandatory for correct display operation.
+
+GPIO Output Pins
+
+The following pins MUST be configured as GPIO_Output in the .ioc file:
+
+**PE10** — LCD_LED
+Function: Backlight control
+Enables or disables the display backlight.
+Can optionally be driven using PWM for brightness control.
+
+**PE11** — LCD_CS
+Function: Chip Select (active low)
+Selects the display controller during SPI communication.
+Controlled by software as a GPIO output.
+
+**PE13** — LCD_DC / LCD_RS
+Function: Data / Command selection
+Determines whether SPI data represents commands or display data.
+Must be driven explicitly by firmware.
+
+⚠️ ***Important Notice***
+If PE10, PE11, or PE13 are not configured as GPIO outputs, the display may remain blank, even if SPI is configured and functioning correctly.
 
 ## Badges
 
