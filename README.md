@@ -201,14 +201,14 @@ The complete source code is available in the file: [src/main.c](src/main.c).
       <td align="center" width="600px">
          <h3>👤 About the Author</h3>
          <p>
-           Hi there! 👋 I'm <b>[ТВОЕ ИМЯ ИЛИ НИК]</b>.
+           Hi there! 👋 I'm <b>Gelani</b>.
          </p>
          <p>
            I created this repository because when I got my WeAct STM32H7 board, finding simple examples was tough. I decided to document my journey to make it easier for other beginners and hobbyists to get started with high-performance MCUs.
          </p>
          <br>
          <p>
-           <a href="https://github.com/ТВОЙ_НИК](https://github.com/whoelse091">
+           <a href="https://github.com/whoelse091">
              <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
            </a>
            <a href="https://t.me/whoels091">
