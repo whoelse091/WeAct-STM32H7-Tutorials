@@ -190,6 +190,9 @@ This repository follows the standard STM32CubeIDE folder structure. Here is a br
 ├── *.ioc                    # STM32CubeMX Configuration file (Open this to see Pinout settings)
 └── README.md                # Project Documentation
 ```
+## Source Code
+
+The complete source code is available in the file: [Core/Src/main.c](Core/Src/main.c).
 
 ## FAQ
 
