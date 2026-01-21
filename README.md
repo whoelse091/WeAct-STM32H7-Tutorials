@@ -193,17 +193,39 @@ This repository follows the standard STM32CubeIDE folder structure. Here is a br
 
 The complete source code is available in the file: [src/main.c](src/main.c).
 
-## FAQ
+<br> <hr> <br>
 
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="600px">
+         <h3>👤 About the Author</h3>
+         <p>
+           Hi there! 👋 I'm <b>[ТВОЕ ИМЯ ИЛИ НИК]</b>.
+         </p>
+         <p>
+           I created this repository because when I got my WeAct STM32H7 board, finding simple examples was tough. I decided to document my journey to make it easier for other beginners and hobbyists to get started with high-performance MCUs.
+         </p>
+         <br>
+         <p>
+           <a href="https://github.com/ТВОЙ_НИК](https://github.com/whoelse091">
+             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+           </a>
+           <a href="https://t.me/whoels091">
+             <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+           </a>
+           <a href="">
+             <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+           </a>
+         </p>
+         <p>
+           <i>If you found this project helpful, please consider giving it a ⭐ Star!</i>
+         </p>
+      </td>
+    </tr>
+  </table>
+</div>
+<br>
 
 
 
