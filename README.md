@@ -178,7 +178,6 @@ This repository follows the standard STM32CubeIDE folder structure. Here is a br
 ```
 This repository follows the standard STM32CubeIDE folder structure. Here is a breakdown of the key files and directories:
 
-```text
 ├── Core
 │   ├── Inc
 │   │   └── main.h           # Main header file (defines and includes)
