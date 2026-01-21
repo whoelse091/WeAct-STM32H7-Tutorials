@@ -191,7 +191,7 @@ This repository follows the standard STM32CubeIDE folder structure. Here is a br
 ```
 ## Source Code
 
-The complete source code is available in the file: [Core/Src/main.c](Core/Src/main.c).
+The complete source code is available in the file: [src/main.c](src/main.c).
 
 ## FAQ
 
