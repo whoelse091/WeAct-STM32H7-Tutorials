@@ -172,6 +172,12 @@ If PE10, PE11, or PE13 are not configured as GPIO outputs, the display may remai
 
 This repository follows the standard STM32CubeIDE folder structure. Here is a breakdown of the key files and directories:
 
+
+## Project Structure
+
+```
+This repository follows the standard STM32CubeIDE folder structure. Here is a breakdown of the key files and directories:
+
 ```text
 ├── Core
 │   ├── Inc
@@ -183,7 +189,8 @@ This repository follows the standard STM32CubeIDE folder structure. Here is a br
 ├── Drivers                  # STM32 HAL & CMSIS Drivers (auto-generated)
 ├── *.ioc                    # STM32CubeMX Configuration file (Open this to see Pinout settings)
 └── README.md                # Project Documentation
-## ## Project Structure
+```
+
 ## FAQ
 
 #### Question 1
