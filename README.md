@@ -168,6 +168,19 @@ If PE10, PE11, or PE13 are not configured as GPIO outputs, the display may remai
 ![Status](https://img.shields.io/badge/Status-Work_in_Progress-orange)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
+## Project Structure
+
+This repository follows the standard STM32CubeIDE folder structure. Here is a breakdown of the key files and directories:
+├── Core
+│   ├── Inc
+│   │   └── main.h           # Main header file (defines and includes)
+│   └── Src
+│       ├── main.c           # Main application code (Display driver & Logic)
+│       ├── stm32h7xx_it.c   # Interrupt Service Routines (Cleaned up for this example)
+│       └── system_stm32h7xx.c
+├── Drivers                  # STM32 HAL & CMSIS Drivers (auto-generated)
+├── *.ioc                    # STM32CubeMX Configuration file (Open this to see Pinout settings)
+└── README.md                # Project Documentation
 
 ## ## Project Structure
 ## FAQ
