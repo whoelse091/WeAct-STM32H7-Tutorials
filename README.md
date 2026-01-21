@@ -168,15 +168,15 @@ If PE10, PE11, or PE13 are not configured as GPIO outputs, the display may remai
 ![Status](https://img.shields.io/badge/Status-Work_in_Progress-orange)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
+
+
+
 ## Project Structure
 
 This repository follows the standard STM32CubeIDE folder structure. Here is a breakdown of the key files and directories:
-
-
-## Project Structure
 
 ```
-This repository follows the standard STM32CubeIDE folder structure. Here is a breakdown of the key files and directories:
+
 
 ├── Core
 │   ├── Inc
